@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .clayton-gradient {
+    @apply bg-gradient-to-r from-purple-900 via-purple-800 to-indigo-900;
+  }
+}
